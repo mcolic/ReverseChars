@@ -10,9 +10,9 @@ package datastructures.exceptions;
  *
  * @author Medina
  */
-public class EmptyCollectionException extends RuntimeException{
+public class EmptyCollectionException extends RuntimeException{ // handle the exceptions
     public EmptyCollectionException(String collection)
     {
-        super("The " + collection + " is empty.");
+        super("There is nothing in  " + collection );
     }
 }
