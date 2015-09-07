@@ -1,3 +1,8 @@
+/* 
+ * Array implementation used from Lewis| Chase book: Java Software Structures Designing and Using Data Structures
+ */
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -128,7 +133,7 @@ public class ArrayStack<T> implements StackADT<T>
      * Returns a string representation of this stack. 
      * @return a string representation of the stack
      */
-    public String toString()
+    public String toString()  // after using the stack collection to reverse the words, save them in strings again
     {
         String result = "";
 
