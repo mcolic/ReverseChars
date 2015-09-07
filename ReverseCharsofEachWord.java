@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 import datastructures.ArrayStack;
-import java.util.Scanner;
+import java.util.Scanner; //scan the user's input
 /**
  *
  * @author Medina
  */
-public class ReverseChars   
+public class ReverseCharsOfEachWord   
 {
    /**
     * Reads a sentence and reverses the characters of each word
@@ -18,8 +18,8 @@ public class ReverseChars
     */
     public static void main (String[] args)
    {
-      ArrayStack<Character> stack = new ArrayStack<>();
-      String sentence = "", word;
+      ArrayStack<Character> stack = new ArrayStack<>(); // create a new array (object)
+      String sentence = "", word; // initialize it
     
       try
       {
